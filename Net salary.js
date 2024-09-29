@@ -58,14 +58,14 @@ let totalDeductions = nhifPayments + nssfPayments + payePayments;
 const netPay = grossPay - totalDeductions;
 
 // Output results
-console.log(Your_gross_salary_is:${grossPay});
+console.log(Your_gross_salary_is$grossPay);
 
-console.log(Your_NHIF_payment_is:${nhifPayments});
+console.log(Your_NHIF_payment_is_$nhifPayments);
 
-console.log(Your_NSSF_payment_is:${nssfPayments});
+console.log(Your_NSSF_payment_is$nssfPayments);
 
-console.log(Your_PAYE_payment_is:${payePayments});
+console.log(Your_PAYE_payment_is$ayePayments);
 
-console.log(Your_Total_Deductions_are:${totalDeductions});
+console.log(Your_Total_Deductions_are$totalDeductions);
 
-console.log(Your_Net_Pay_is: $_{netPay});
+console.log(Your_Net_Pay_is$_netPay);

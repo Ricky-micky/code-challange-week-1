@@ -2,6 +2,7 @@
 let basicPay = Number(prompt(Enter_your_basic_pay, 0));
 let benefits = Number(prompt(Enter_your_benefits, 0));
 
+
 // Calculate gross pay
 const grossPay = basicPay + benefits;
 

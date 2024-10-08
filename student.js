@@ -1,4 +1,7 @@
-let mark = 50
+let mark = 45
+
+
+//calculating  student marks 
 if (mark<=80 && mark >= 100){
     console.log ("A")
 }

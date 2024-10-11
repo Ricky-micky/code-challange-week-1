@@ -2,7 +2,6 @@
 let basicPay = Number(prompt(Enter_your_basic_pay, 0));
 let benefits = Number(prompt(Enter_your_benefits, 0));
 
-
 // Calculate gross pay
 const grossPay = basicPay + benefits;
 
@@ -61,12 +60,12 @@ const netPay = grossPay - totalDeductions;
 // Output results
 console.log(Your_gross_salary_is$grossPay);
 
-console.log(Your_NHIF_payment_is_$nhifPayments);
+console.log(Your_NHIF_payment_is$nhifPayments);
 
 console.log(Your_NSSF_payment_is$nssfPayments);
 
-console.log(Your_PAYE_payment_is$ayePayments);
+console.log(Your_PAYE_payment_is$payePayments);
 
 console.log(Your_Total_Deductions_are$totalDeductions);
 
-console.log(Your_Net_Pay_is$_netPay);
+console.log(Your_Net_Pay_is$netPayn );
